@@ -1,13 +1,16 @@
 package service;
 
+import com.mchange.v2.c3p0.ComboPooledDataSource;
 import dao.IDeptDAO;
 import entity.Dept;
+import org.apache.ibatis.datasource.unpooled.UnpooledDataSourceFactory;
 import util.SessionFactoryUtil;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
 
 public class IDeptDAOImpl implements IDeptDAO {
+
     public List<Dept> findAll() {
         // 获取session
         SqlSession session = null;

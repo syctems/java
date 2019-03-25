@@ -24,7 +24,6 @@ public class SessionFactoryUtil {
         try {
             // 判断SqlSessionFactory是否为空，如果为空则创建
             if(sessionFactory==null){
-                String path=SessionFactoryUtil.class.getResource("/").getPath();
                 InputStream stream = Resources.getResourceAsStream("/mybaties-config.xml");
                 sessionFactory = new SqlSessionFactoryBuilder().build(stream);
             }
