@@ -13,39 +13,41 @@
     <session id="-808376360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.0" value="8" />
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="5" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="84" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="106" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="84" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="106" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="7158" />
+          <entry key="java" value="12389" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7158" />
+          <entry key="JAVA" value="12389" />
           <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
@@ -53,13 +55,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FileWriter/FileWriterMethod.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FunctionInterface/FunctionMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CollectionStreamMethod/CollectionStreamMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2068#2069#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2230#2231#0" expanded="true" />
+                <element signature="e#2267#2268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,9 +87,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Person</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,7 +139,20 @@
         <option value="$PROJECT_DIR$/src/InputStream/InputStreamMethod.java" />
         <option value="$PROJECT_DIR$/src/FileReader/a.txt" />
         <option value="$PROJECT_DIR$/src/FileReader/FileReaderMethod.java" />
+        <option value="$PROJECT_DIR$/src/Reflect/TestAnno.java" />
+        <option value="$PROJECT_DIR$/src/Reflect/Person.java" />
         <option value="$PROJECT_DIR$/src/FileWriter/FileWriterMethod.java" />
+        <option value="$PROJECT_DIR$/src/Reflect/ReflectClass.java" />
+        <option value="$PROJECT_DIR$/src/Reflect/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/src/ForAll/ForAllMethod.java" />
+        <option value="$PROJECT_DIR$/src/Property/PropertyMethod.java" />
+        <option value="$PROJECT_DIR$/src/FunctionInterface/MyFunctionInterface.java" />
+        <option value="$PROJECT_DIR$/src/FunctionInterface/FunctionInterfaceMethod.java" />
+        <option value="$PROJECT_DIR$/src/FunctionInterface/SupplierFunctionMethod.java" />
+        <option value="$PROJECT_DIR$/src/FunctionInterface/ConsumerFunctionMethod.java" />
+        <option value="$PROJECT_DIR$/src/FunctionInterface/PredicateFunctionMethod.java" />
+        <option value="$PROJECT_DIR$/src/FunctionInterface/FunctionMethod.java" />
+        <option value="$PROJECT_DIR$/src/CollectionStreamMethod/CollectionStreamMethod.java" />
       </list>
     </option>
   </component>
@@ -125,11 +162,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="190" />
-    <option name="y" value="40" />
-    <option name="width" value="1701" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="235" />
+    <option name="y" value="30" />
+    <option name="width" value="1604" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -137,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,13 +192,7 @@
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FileReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FileWriter" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionStreamMethod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -190,7 +222,7 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -198,19 +230,19 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601368141549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603349096331" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -236,13 +268,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileWriterMethod">
-    <configuration name="FileMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="File.FileMethod" />
+  <component name="RunManager" selected="Application.CollectionStreamMethod">
+    <configuration name="CollectionStreamMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionStreamMethod.CollectionStreamMethod" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="File.*" />
+          <option name="PATTERN" value="CollectionStreamMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReaderMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileReader.FileReaderMethod" />
+    <configuration name="ConsumerFunctionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionInterface.ConsumerFunctionMethod" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileReader.*" />
+          <option name="PATTERN" value="FunctionInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriterMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileWriter.FileWriterMethod" />
+    <configuration name="FunctionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionInterface.FunctionMethod" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileWriter.*" />
+          <option name="PATTERN" value="FunctionInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputStreamMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputStream.InputStreamMethod" />
+    <configuration name="PredicateFunctionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionInterface.PredicateFunctionMethod" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InputStream.*" />
+          <option name="PATTERN" value="FunctionInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputStreamMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OutputStream.OutputStreamMethod" />
+    <configuration name="SupplierFunctionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionInterface.SupplierFunctionMethod" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OutputStream.*" />
+          <option name="PATTERN" value="FunctionInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,19 +335,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileMethod" />
-      <item itemvalue="Application.OutputStreamMethod" />
-      <item itemvalue="Application.InputStreamMethod" />
-      <item itemvalue="Application.FileReaderMethod" />
-      <item itemvalue="Application.FileWriterMethod" />
+      <item itemvalue="Application.SupplierFunctionMethod" />
+      <item itemvalue="Application.ConsumerFunctionMethod" />
+      <item itemvalue="Application.PredicateFunctionMethod" />
+      <item itemvalue="Application.FunctionMethod" />
+      <item itemvalue="Application.CollectionStreamMethod" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileWriterMethod" />
-        <item itemvalue="Application.FileReaderMethod" />
-        <item itemvalue="Application.InputStreamMethod" />
-        <item itemvalue="Application.OutputStreamMethod" />
-        <item itemvalue="Application.FileMethod" />
+        <item itemvalue="Application.CollectionStreamMethod" />
+        <item itemvalue="Application.FunctionMethod" />
+        <item itemvalue="Application.PredicateFunctionMethod" />
+        <item itemvalue="Application.ConsumerFunctionMethod" />
+        <item itemvalue="Application.SupplierFunctionMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -344,18 +376,31 @@
       <workItem from="1601083221485" duration="9596000" />
       <workItem from="1601253291914" duration="5458000" />
       <workItem from="1601280107731" duration="587000" />
-      <workItem from="1601343694859" duration="6290000" />
+      <workItem from="1601343694859" duration="6518000" />
+      <workItem from="1601964592939" duration="1226000" />
+      <workItem from="1602056015370" duration="7537000" />
+      <workItem from="1602207820286" duration="4666000" />
+      <workItem from="1602227983362" duration="1067000" />
+      <workItem from="1602637087820" duration="6117000" />
+      <workItem from="1602643844299" duration="7318000" />
+      <workItem from="1603077783321" duration="774000" />
+      <workItem from="1603090939534" duration="4970000" />
+      <workItem from="1603177756216" duration="3252000" />
+      <workItem from="1603250115313" duration="2438000" />
+      <workItem from="1603262212648" duration="2059000" />
+      <workItem from="1603266748018" duration="3020000" />
+      <workItem from="1603347209341" duration="2427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74206000" />
+    <option name="totallyTimeSpent" value="121305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="40" width="1701" height="955" extended-state="0" />
+    <frame x="235" y="30" width="1604" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24923827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3134715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,8 +409,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914573" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32788944" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34045225" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29064587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33853006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -373,7 +418,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32830188" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2495854" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,149 +465,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Iterator/IteratorMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="3180" selection-start-line="3180" selection-end-line="3180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generator/GeneratorMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generator/GeneratorMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="656" selection-start-line="656" selection-end-line="656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DouDiZhu/DouDiZhuMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#134#142#0" expanded="true" />
-            <element signature="e#192#200#0" expanded="true" />
-            <element signature="e#241#249#0" expanded="true" />
-            <element signature="e#346#354#0" expanded="true" />
-            <element signature="e#415#423#0" expanded="true" />
-            <element signature="e#480#488#0" expanded="true" />
-            <element signature="e#545#553#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DouDiZhu/DouDiZhuMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4697">
-          <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collection/ArrayListMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="133" column="9" lean-forward="true" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collection/LinkedListMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="627" selection-start-line="627" selection-end-line="627" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="946" selection-start-line="946" selection-end-line="946" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Collection/HashSetMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -574,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,10 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,9 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,32 +652,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileWriter/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileWriter/a.txt" />
     <entry file="file://$PROJECT_DIR$/src/OutputStream/OutputStreamMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileWriter/makeFile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflect/TestAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileWriter/FileWriterMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="110">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflect/ReflectTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Reflect/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflect/ReflectClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="10" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/PropertyMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Property/p.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionInterface/MyFunctionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionInterface/FunctionInterfaceMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForAll/ForAllMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionInterface/PredicateFunctionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionInterface/ConsumerFunctionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionInterface/SupplierFunctionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_251/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionInterface/FunctionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionStreamMethod/CollectionStreamMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2068#2069#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2230#2231#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
           </folding>
         </state>
       </provider>
